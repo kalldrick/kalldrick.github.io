@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Morsoul-Contact</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./design/main.css">
+        <script src="https://kit.fontawesome.com/0ef562823e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo"><span class="the">The </span>Mor<span>Soul's</span></a>
+            <ul id="navbar">
+                <li><a class="btn"href="index.html">Home</a></li>
+                <li><a class="btn"href="about.html">About</a></li>
+                <li><a class="btn"href="gallery.html">Gallery</a></li>
+                <li><a class="btn"href="team.html">Team</a></li>
+                <li><a class="btn active"href="contact.html">Contact</a></li>
+            </ul>
+            </header>
+            <section class="banner-contact">
+                <div class="title">
+                  <h2>Contact Us</h2>
+              </div>
+            </section>
+      <section class="info">
+        <div class="contact-content">
+            <form action="" method="get" id="form">
+                <h3 class="title-form">Contact Form</h3>
+                <input type="text" placeholder="First Name*" required>
+                <input type="text" placeholder="Last Name*" required>
+                <div class="email">
+                    <input type="text" placeholder="Email Address*" id="email" onkeydown="validation()" required>
+                    <span class="text" id="text"></span>
+                </div>
+                <input type="text" placeholder="Phone Number">
+                <textarea name="message" placeholder="What can we do for you?"></textarea>
+                <button>SEND</button>
+            </form>
+        </div>
+      </section>
+      <!--Footer Section-->
+      <section class="footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h1 class="logo">Mor<span>Soul</span></h1>
+                <p>Morsoul is an interior design company that comprises of innovative skills and art.
+                    They find creative ways to present and decorate all your infrastructer components.
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone">&nbsp;</i>079-065-3087</span>
+                    <span><i class="fas fa-envelope">&nbsp;</i>morsoulinterior@gmail.com</span>
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/morsoul_interior/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="team.html">Team</a>
+                    <a href="contact.html">Contact</a>
+                </ul>
+            </div>
+            <div class="footer-contact-form">
+                <h2>Contact Us</h2>
+                <br>
+                <form action="index.html" method="post">
+                    <input type="text" name="email" class="text-input contact-input" placeholder="Your Email Address...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Your Message..."></textarea>
+                    <button type="submit" class="btn btn-big">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2022 morsoul.store | Designed by Kalldrick
+        </div>
+    </section>
+    </body>
+    <script src="./js/index.js"></script>
+    <script src="./js/validator.js"></script>
+</html>
