@@ -45,6 +45,9 @@ header .logo span.the{
 header .logo span{
     color:#6D071A;
 }
+.icon {
+    display: none;
+}
 header ul{
     position: relative;
     display: flex;
@@ -740,5 +743,7 @@ button[name ~= "product7"]{
     transition: 0.6s;
 }
 /*Media Queries*/
+
+/*Mobile devices Portrait Mode*/
 
 /*Media Queries Ending*/
